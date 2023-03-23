@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
+.challenges,
+.practice,
+.theory {
+  position: absolute;
+  top: 42px;
+  left: 1056px;
+  font-weight: 900;
+  display: inline-block;
+  width: 116px;
+  height: 39px;
+}
+.challenges,
+.theory {
+  left: 1186px;
+  width: 135px;
+}
+.challenges {
+  top: 43px;
+  left: 1321px;
+  width: 143px;
+  height: 38px;
+}
+.whatsapp-image-2022-09-19-at-1 {
+  position: absolute;
+  top: 24px;
+  left: 37px;
+  width: 62px;
+  height: 57px;
+  object-fit: cover;
+}
+.bg1-1-icon,
+.practice-parent {
+  position: absolute;
+  left: 0;
+  width: 1550px;
+}
+.practice-parent {
+  top: 0;
+  background-color: var(--color-seagreen);
+  height: 120px;
+  overflow: hidden;
+}
+.bg1-1-icon {
+  top: 120px;
+  height: 625px;
+  object-fit: cover;
+}
+.conjunction {
+  text-decoration: underline;
+}
+.conjunction-if-two-statement {
+  margin: 0;
+}
+.conjunction-if-container,
+.disjunction-if-container,
+.negation-of-a-container {
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  width: 830px;
+  height: 87px;
+  flex-shrink: 0;
+}
+.disjunction-if-container,
+.negation-of-a-container {
+  width: 848px;
+  height: 60px;
+}
+.negation-of-a-container {
+  width: 830px;
+  height: 150px;
+}
+.conjunction-if-two-statement-parent {
+  position: absolute;
+  top: 152px;
+  left: 240px;
+  background-color: #1d592d;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 20px solid #d18052;
+  box-sizing: border-box;
+  width: 1072px;
+  height: 561px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-92xl) 128px var(--padding-92xl) 145px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+  font-size: var(--font-size-6xl);
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  height: 745px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-lightgray: #ccc;
+  --color-white: #fff;
+  --color-seagreen: #1d874e;
+
+  /* Paddings */
+  --padding-92xl: 111px;
+}
